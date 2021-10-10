@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.css{
+    background-color: red;
+    color:white;
+    width: 100% ;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+    </style>
+</head>
+<body>
+  
+    <div class="css">
+        <h1>CADASTRO</h1>
+        <br>
+        <div style="background-color: white; height: 1px; width: 30%;"></div>
+        <br><br>
+    NOME COMPLETO: <br>
+    <input id="nome" type="text" placeholder="NOME"><br><br>
+    NOME DA EMPRESA: <br>
+    <input id="empresa" type="text" placeholder="EMPRESA"><br><br>
+    EMAIL: <br>
+    <input id="email" type="email" placeholder="EMAIL"><br><br>
+    SENHA: <br>
+    <input id="senha" type="password" placeholder="SENHA"><br><br>
+    <button style="width: 20%; height: 30px; background-color: white; color: red;" onclick="cadastro()">CADASTRAR-SE</button>
+    </div>
+</body>
+</html>
+
+<script>
+
+function cadastro() {
+    if (nome.value == "christian" && empresa.value == "bandtec" && email.value == "christian@hotmail.com" && senha.value == "123456") {
+        alert("cadastrado com sucesso!")
+        
+    }
+}
+
+</script>
